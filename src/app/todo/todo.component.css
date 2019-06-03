@@ -1,0 +1,136 @@
+#container {
+    /* display: flex; */
+    /* flex-direction: row;
+    justify-content: center; */
+    /* align-items: center; */
+    /* margin: 1.5em; */
+    border: 1px solid green;
+    
+}
+
+.headers {
+text-align: start;
+margin-left:2.2em;
+margin-bottom:.80em;
+}
+
+.list-items {
+    margin-left:2.2em;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-bottom:1.0em;
+}
+section {
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 5px 10px;
+    background: white;
+    /* display: flex;
+    flex-direction: column; */
+    height:100%;
+    font-size: 27px;
+    margin-right: 2em;
+    width:100%;
+    
+}
+input {
+    /* display: flex;
+    justify-content:flex-start; */
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 40.4em;
+    height: 3.0em;
+    /* margin: auto; */
+}
+
+input[type=text] {
+    padding-left:1.0em;
+}
+#delete{
+    border-style: none;
+    /* margin-right: 1.4em; */
+    margin:0;
+    padding:0;
+    margin-left: 13.0em;
+    float:right;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+#complete {
+    border: 1px solid palevioletred;
+    border-radius: 7px;
+    color:palevioletred;
+    /* margin-right:1.0em; */
+    height: 2.6em;
+    float: left;
+    display: flex;
+    flex-direction: row;
+
+}
+span {
+    float: left;
+    text-align: left;
+    margin:0;
+    padding:0;
+    margin-left: 1.0em;
+}
+
+#complete,#tasks,#delete {
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+}
+#toadd {
+    border: 1px solid palevioletred;
+    color:white;
+    background:palevioletred;   
+    border-radius: 7px; 
+    text-align:center;
+    font-size: 20px;
+    height: 2.0em;
+    margin:0;
+    margin-left: 2.9em;
+    margin-top:1.9em;
+    margin-bottom: 1.9em;
+    /* margin: 1.2em auto; */
+   
+
+}
+#formatting {
+    /* display: block; */
+    width: 90%;
+    
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-weight: bold;
+}
+/* li{
+   width: 238px;
+} */
+
+
+/* li {
+    padding-left: 1.0em;
+    
+} 
+li .tasks #complete {
+    display:inline-block;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+}  */
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.editing-todo {
+width: 40%;
+}
